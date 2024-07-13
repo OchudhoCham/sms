@@ -1,0 +1,51 @@
+/* Custom styles for sidebar */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    margin: 10px 0;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: #495057;
+    border-radius: 4px;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.sidebar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.sidebar .dropdown-item {
+    color: #adb5bd;
+}
+
+.sidebar .dropdown-item:hover {
+    color: #fff;
+    background-color: #495057;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
